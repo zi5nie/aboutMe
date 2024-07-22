@@ -1,0 +1,31 @@
+*{margin: auto; }
+
+body{background-color:black; }
+p{font-size: 12px;}
+
+#hr{color: black; }
+a{color: black; text-decoration: none;}
+header{width: 1020px; height:100px; background-color: pink; position: relative;
+color: black;padding: 20px;}
+nav{width: 400px; height: 50px; background-color: pink; position: absolute;
+top:20px; right: 0px;}
+label{ width: 70px; height: 50px; cursor: pointer; text-align: center; display: inline-block; }
+
+.layout{ height: 550px; width: 1060px; background-color: pink; position: relative; }
+.fastTab{width: 250px; height: 450px; margin-right: 10px; background-color: white; 
+position: absolute; left: 0px; top:0px; color: black; padding-top:100px; text-align: center;}
+.fastTab label{display: block;}
+.content{width: 800px;height:550px; margin-left: 10px;  
+  top:0px; right: 0px; background-color:white;  position: absolute;}
+
+input{display: none;}
+input:checked+label{color:#566d2d;}
+
+.text2{padding: 50px; margin: auto 0px;}
+.text2 h1{color: blue;}
+.text{margin:auto 20px; height: auto; padding: 20px;}
+.gall{padding: auto; margin: auto; text-align: center; padding-top: 20px; }
+h2{margin: 5px;}
+footer{width: 1060px; height:50px;  background: pink; display: block;
+bottom: 0px; text-align: center; color: black; padding-top: auto; font-size: 12px;
+}

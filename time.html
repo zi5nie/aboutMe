@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>index</title>
+	<script type="text/javascript">
+		window.onload = function(){
+		var home=document.getElementById('home');
+		var info=document.getElementById('info');
+		var photo=document.getElementById('photo');
+		var time=document.getElementById('time');
+
+		home.addEventListener('click',function() {location.replace("index.html");});
+		info.addEventListener('click',function() {location.replace("aboutMe.html");});
+		photo.addEventListener('click',function() {location.replace("photo.html");});
+				time.addEventListener('click',function() {location.replace("time.html");});}	
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+	<header>
+	<nav>
+		<input type="radio" id="home" name="radio">
+		<label for="home" class="home">| home</label>
+		<input type="radio" id="info" name="radio">
+		<label for="info" class="info">| info</label>
+		<input type="radio" id="photo" name="radio">
+		<label for="photo" class="photo">| photo</label>
+		<input type="radio" id="time" name="radio">
+		<label for="time" class="time"  checked="checked">| time</label>
+	</nav>
+		<p id="welcome">welcome</p>
+		<p id="to">to</p>
+		<p id="my">my</p>
+		<p id="home">home</p>
+	</header>	
+
+<body>
+	<div class="layout">
+		<div class="fastTab">
+				>FAST TAB<<br>
+				<br>
+			<label for="home" class="home">HOME</label>
+			<label for="info" class="info">INFO</label>
+			<label for="photo" class="photo">PHOTO</label>
+			<label for="time" class="time">TIME</label>
+		</div>
+		<div class="content">
+			<div class="text2">
+			<h1>Azik+motManden+Page</h1><br>
+			<hr><br>
+			<h3>내 홈피에 멀 써야할지...<br>제 블로그 놀러오세요<h3><br><br>
+				***************************************<br><br>
+			<p><a href="https://github.com/zi5nie">github:"zi5nie"</a>	
+			<p><a href="https://blog.naver.com/jonjon602">naver blog:"지원"</a>	<br><br>
+				<h3>****************************************<h3>
+		</div>
+		</div>
+	</div>
+
+	<footer>copyrigth@sunyoungee</footer>
+</body>
+</html>

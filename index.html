@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>index</title>
+	<script type="text/javascript">
+		window.onload = function(){
+		var home=document.getElementById('home');
+		var info=document.getElementById('info');
+		var photo=document.getElementById('photo');
+		var time=document.getElementById('time');
+
+		home.addEventListener('click',function() {location.replace("index.html");});
+		info.addEventListener('click',function() {location.replace("aboutMe.html");});
+		photo.addEventListener('click',function() {location.replace("photo.html");});
+		time.addEventListener('click',function() {location.replace("time.html");});}	
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+	<header>
+	<nav>
+		<input type="radio" id="home" name="radio" checked="checked">
+		<label for="home" class="home">| home</label>
+		<input type="radio" id="info" name="radio">
+		<label for="info" class="info">| info</label>
+		<input type="radio" id="photo" name="radio">
+		<label for="photo" class="photo">| photo</label>
+		<input type="radio" id="time" name="radio">
+		<label for="time" class="time">| time</label>
+	</nav>
+		<p id="welcome">welcome</p>
+		<p id="to">to</p>
+		<p id="my">my</p>
+		<p id="home">home</p>
+	</header>	
+
+<body>
+	<div class="layout">
+		<div class="fastTab">
+				>FAST TAB<<br>
+				<br>
+			<label for="home" class="home">HOME</label>
+			<label for="info" class="info">INFO</label>
+			<label for="photo" class="photo">PHOTO</label>
+			<label for="time" class="time">TIME</label>
+		</div>
+		<div class="content">
+			<div class="text2">
+			<h1>!!welcome to my first web page!!</h1><br>
+			<hr><br>
+			<h3>하하 무슨 말을 해야할지 모르겟는데 암튼 열심히 개발 배워서 취업하고시퍼요 ㅎㅎ</p><br			<br>
+			<p>일단 2학기 계획!! 스벅 때려치우고 C++, JAVA 수업 듣고 , 플젝하고, 학점 관리 열심히 하기~~ 오늘 알바 쉬는날이라 집에서 에어컨 틀어놓고 만화 볼 예정임 ㅎ헤 글고 점심에 엽떡 머글것임. 
+				글구 5시쯤에 언니 회사앞에 가서 언니한테 밥 얻어먹꼬~~ 웹공부 쫌 하다가 스벅 레시피 시험 준비하고~~ 아카데미 들어가서 그때 폴이
+			보라고 한 강의 듣고~~ 인프런 강의 신청해둔거 먹꼬~~ 시간 남으면 타호커피 가서 라떼 머거야지 </p>
+		
+		
+		</div>
+		</div>
+	</div>
+
+	<footer>copyrigth@sunyoungee</footer>
+</body>
+</html>

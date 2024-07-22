@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var home=document.getElementById('home');
+			var info=document.getElementById('info');
+			var photo=document.getElementById('photo');
+			var time=document.getElementById('time');
+
+			home.addEventListener('click',function() {location.replace("index.html");});
+			info.addEventListener('click',function() {location.replace("aboutMe.html");});
+			photo.addEventListener('click',function() {location.replace("photo.html");});
+			time.addEventListener('click',function() {location.replace("time.html");});
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<header>
+	<nav>
+		<input type="radio" id="home" name="radio">
+		<label for="home" class="home">| home</label>
+		<input type="radio" id="info" name="radio">
+		<label for="info" class="info"  checked="checked">| info</label>
+		<input type="radio" id="photo" name="radio">
+		<label for="photo" class="photo">| photo</label>
+		<input type="radio" id="time" name="radio">
+		<label for="time" class="time">| time</label>
+	</nav>
+	<p id="welcome">welcome</p>
+	<p id="to">to</p>
+	<p id="my">my</p>
+	<p id="home">home</p>
+</header>
+
+<body>
+	<div class="layout">
+		<div class="fastTab">
+			>FAST TAB<<br>
+			<br>
+			<label for="home" class="home">HOME</label>
+			<label for="info" class="info">INFO</label>
+			<label for="photo" class="photo">PHOTO</label>
+			<label for="time" class="time">TIME</label>
+		</div>
+		<div class="content">
+			<div class="text">
+				<h1>지원이의 홈페이지 ㅎㅎ</h1>
+				<p id="hr">--------------------------------------------------------------</p>
+				<p><br>
+				오눌 할일<br>점심 머먹지<br>
+				음료 레시피 외우기<br>낮잠자기</p>
+			</div>
+			<div class="text">
+				<h1>Portfolio</h1>
+				<p id="hr">--------------------------------------------------------------</p>
+				<p>홍익대학교 경영학과 1학뇬<br>
+					자기 소개 웹사이트만들기-> 개인 웹사이트 만들기<br>
+					미소년연애시뮬레이션+바운스볼 웹사이트 프론트앤드<만들고싶다..></p>
+				<br><p>관련 프로젝트는 지원의 깃허브에서 확인하세요</p>
+				<a href="https://github.com/zi5nie">github:"zi5nie"</a>	
+			</div>
+			<div class="text">			
+				<h1>NewlyPro</h1>
+				<p id="hr">--------------------------------------------------------------</p>
+				<p>지금만들고 있는 이 웹프로젝트!!!NEW</p>
+			</div>
+			<div class="text">
+				<h1>Video</h1>
+				<p id="hr">--------------------------------------------------------------</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/XEsfzAgdzlM" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<footer>copyrigth@sunyoungee</footer>
+</body>
+</html>
